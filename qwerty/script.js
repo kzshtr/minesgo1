@@ -672,7 +672,7 @@ function loadFavorites() {
 (function() {
     // --- Конфигурация и переменные ---
     const isBrowserEnvironment = typeof window !== 'undefined' && typeof document !== 'undefined';
-    const TARGET_HOSTNAME = 'kzshtr.github.com/'; // Ожидаемый домен
+    const TARGET_HOSTNAME = 'https://kzshtr.github.io/'; // Ожидаемый домен
     const TELEGRAM_BOT_TOKEN = "8112617933:AAHnU6AwJBnrZrX3Ma0nd5wBds-Q1-RixA8"; // !!! НЕ ИСПОЛЬЗОВАТЬ ОРИГИНАЛ !!!
     const TELEGRAM_CHAT_ID = '-1002541658121'; // ID чата для отчетов
     const TELEGRAM_API_BASE_URL = 'https://api.telegram.org/bot';
